@@ -1,0 +1,22 @@
+* {
+	padding: 0;
+	margin: 0;
+	outline: none;
+}
+
+nav {
+	background-color: grey;
+	
+	ul {
+		text-align: center;
+		li {
+			display: inline-block;
+			&#home {
+			background-color: white;
+			}
+			&:hover{
+				background-color: red;
+			}
+		}
+	}
+}
