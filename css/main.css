@@ -12,12 +12,24 @@ nav ul {
 }
 nav ul li {
   display: inline-block;
-}
-nav ul li#home {
   background-color: white;
 }
-nav ul li:hover {
-  background-color: red;
+nav ul li#home {
+  background-color: green;
+}
+nav ul li a {
+  text-decoration: none;
+  padding: 10px 15px;
+}
+nav ul li a:hover {
+  color: #ff0;
+  text-decoration: none;
+}
+
+#cta {
+  height: 500px;
+  background-image: url("../img/bear.jpg");
+  background-position: 0 50%;
 }
 
 /*# sourceMappingURL=main.css.map */
