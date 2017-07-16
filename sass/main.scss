@@ -1,5 +1,8 @@
 $clr1: #ff0;
 $imgPath: "../img/bear";
+@mixin mixin1{
+	background-color:red;
+}
 
 * {
 	padding: 0;
@@ -39,4 +42,8 @@ nav {
 	height: 500px;
 	background-image: url($imgPath+".jpg");
 	background-position: 0 50%;
+}
+
+p {
+	@include mixin1;
 }

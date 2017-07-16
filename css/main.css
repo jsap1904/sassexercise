@@ -32,4 +32,8 @@ nav ul li a:hover {
   background-position: 0 50%;
 }
 
+p {
+  background-color: red;
+}
+
 /*# sourceMappingURL=main.css.map */
